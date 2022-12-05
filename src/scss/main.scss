@@ -63,3 +63,66 @@ table td {
 .cafe-interior {
   width: 74%;
 }
+
+/* Réservations */
+
+.reserved-section {
+  background-image: url(../img/pines-forest.png);
+  color: #fff;
+  padding: 43px 15px 56px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .reserved-section {
+    padding: 70px 0 140px;
+  }
+  .reserved-section p {
+    font-size: 20px;
+  }
+  .reservation-title {
+    font-size: 55px;
+  }
+}
+
+.reservation-title {
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-bottom: 42px;
+}
+
+.reserved-section p {
+  margin-bottom: 22px;
+}
+
+.envy-propose {
+  margin: 23px 0 0;
+}
+
+.call-to-action {
+  color: #fff;
+  background: rgba(29, 58, 39, 0.44);
+  border: 1px solid #ffffff;
+  padding: 8px 20px;
+  font-family: "Raleway";
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.call-to-action:hover {
+  background-color: #fff;
+  color: rgba(29, 58, 39);
+}
+
+@media (min-width: 768px) {
+  .call-to-action {
+    padding: 10px 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .call-to-action {
+    padding: 12px 210px 12px 200px;
+  }
+}
