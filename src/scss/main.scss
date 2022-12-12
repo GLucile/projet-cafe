@@ -4,7 +4,7 @@
 @import "bootstrap/scss/bootstrap-grid";
 
 /* layout highlighter */
-.row + .row {
+/*.row + .row {
   margin-top: 16px;
 }
 
@@ -15,12 +15,95 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+*/
 
 @media (max-width: 1200px) {
   .cottage-photo,
   .cafe-interior {
     display: none;
   }
+}
+
+/* font-family: 'Megrim', cursive;
+font-family: 'Raleway', sans-serif; */
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: #1d3a27;
+  padding: 0px 0 60px;
+  background-image: url(../img/intro-forest-.png);
+  background-size: 100%;
+  box-shadow: inset 0 30px 40px 10px rgba(0, 0, 0, 0.85);
+}
+
+.menu-button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Megrim", cursive;
+  text-align: center;
+  display: block;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.menu-choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 16px 0 63px 0;
+}
+
+/* Concept description */
+
+.cafe-description {
+  margin: 0px 10px;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: #0d400c;
+  text-align: center;
+  line-height: 26px;
+}
+/*
+@media (min-width: 380px) {
+  .cafe-description,
+  .forest-path {
+    display: none;
+  }
+} */
+
+.concept-descrp {
+  padding: 58px 8px 47px;
+}
+
+.forest-path {
+  background-image: url(../img/forest-path.webp);
+  width: 100%;
+  background-size: 100%;
+  padding: 120px 120px 200px 120px;
+}
+
+@media (min-width: 1200px) {
+  .forest-path {
+    display: block;
+  }
+}
+
+.cottage-photo {
+  width: 30%;
 }
 
 /* Carte des boissons */
@@ -62,6 +145,7 @@ table td {
 
 .cafe-interior {
   width: 74%;
+  box-shadow: 0 0 40px #000;
 }
 
 /* Réservations */
@@ -124,5 +208,80 @@ table td {
 @media (min-width: 1200px) {
   .call-to-action {
     padding: 12px 210px 12px 200px;
+  }
+}
+
+/* Horaire */
+
+.schedules {
+  background-color: #1d3a27;
+  color: #fff;
+  text-align: center;
+  padding: 35px 14px 40px;
+}
+
+.schedules-title,
+.contacts-title {
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.schedule-infos {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+@media (min-width: 1200px) {
+  .schedules {
+    background: rgba(29, 58, 39, 0.25);
+    border: #fff solid 1px;
+    padding: 55px 0px 94px;
+    margin: 120px 5px 230px 215px;
+  }
+  .schedule-infos {
+    font-size: 22px;
+    line-height: 45px;
+  }
+}
+
+/* contacts */
+.contacts-area {
+  background-image: url(../img/dense-forest.webp);
+  color: #fff;
+  padding: 0 0 15px;
+}
+
+.contacts-title {
+  font-size: 30px;
+  padding-top: 36px;
+}
+
+.contacts-idea {
+  text-align: center;
+  font-size: 22px;
+  margin: 25px 0 50px;
+}
+
+.contact-link {
+  margin-top: 25px;
+}
+
+.contact-mail {
+  margin-bottom: 68px;
+}
+
+@media (min-width: 1200px) {
+  .contacts-title {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 35px;
+  }
+  .contacts-idea {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 180px 0 25px 5px;
   }
 }
