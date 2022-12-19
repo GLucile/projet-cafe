@@ -157,6 +157,11 @@ h1 {
 
 .cottage-photo {
   width: 35%;
+  transition: transform 0.2s ease-in;
+}
+
+.cottage-photo:hover {
+  transform: scale(1.1);
 }
 
 /* Carte des boissons */
@@ -198,6 +203,11 @@ table td {
 .cafe-interior {
   width: 74%;
   box-shadow: 0 0 40px #000;
+  transition: transform 0.2s ease-in;
+}
+
+.cafe-interior:hover {
+  transform: scale(1.1);
 }
 
 /* Réservations */
