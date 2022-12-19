@@ -42,6 +42,11 @@ header {
   background-image: url(../img/intro-forest-.png);
   background-size: cover;
   box-shadow: inset 0 30px 40px 10px rgba(0, 0, 0, 0.85);
+  min-height: 55px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu-button {
@@ -120,6 +125,14 @@ h1 {
   color: #0d400c;
   text-align: center;
   line-height: 26px;
+}
+
+.concept {
+  min-height: 140px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .concept-descrp {
