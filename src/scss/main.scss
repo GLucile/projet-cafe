@@ -48,6 +48,7 @@ header {
   font-weight: 600;
   font-size: 16px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 h1 {
@@ -242,23 +243,16 @@ table td {
   font-family: "Raleway";
   font-size: 22px;
   margin-top: 40px;
+  cursor: pointer;
+  transition: transform 1s ease-in;
+  transition: color 0.3s, background 0.3s;
 }
 
+/* Call to action animation */
 .call-to-action:hover {
-  background-color: #fff;
-  color: rgba(29, 58, 39);
-}
-
-@media (min-width: 768px) {
-  .call-to-action {
-    padding: 10px 120px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .call-to-action {
-    padding: 12px 210px 12px 200px;
-  }
+  background: #fff;
+  color: #1d3a27;
+  transform: scale(1.2);
 }
 
 /* Horaire */
